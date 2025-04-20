@@ -3,6 +3,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Professional Safety Guidelines</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
   <style>
     body {
       margin: 0;
@@ -37,16 +38,24 @@
       padding: 20px;
       border-radius: 10px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-      transition: transform 0.3s ease;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      animation: fadeInUp 1s ease;
     }
     section:hover {
       transform: translateY(-4px);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
     }
     h2 {
       color: #003366;
       border-bottom: 2px solid #006699;
       padding-bottom: 5px;
       margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    h2 i {
+      color: #006699;
     }
     ul {
       padding-left: 20px;
@@ -66,6 +75,16 @@
         font-size: 1.5em;
       }
     }
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
   </style>
 </head>
 <body>
@@ -75,7 +94,7 @@
   </header>
   <div class="container">
     <section>
-      <h2>1. General Occupational Safety</h2>
+      <h2><i class="fas fa-hard-hat"></i> 1. General Occupational Safety</h2>
       <ul>
         <li>Hazard assessments must be conducted before starting any job.</li>
         <li>Use of Personal Protective Equipment (PPE) is mandatory.</li>
@@ -89,7 +108,7 @@
         <li>All signboards must be visible and clean.</li>
       </ul>
     </section><section>
-  <h2>2. Fire Safety</h2>
+  <h2><i class="fas fa-fire-extinguisher"></i> 2. Fire Safety</h2>
   <ul>
     <li>Every second counts during a fire.</li>
     <li>Fire extinguishers must always be ready and accessible.</li>
@@ -102,7 +121,7 @@
 </section>
 
 <section>
-  <h2>3. Working at Height Safety</h2>
+  <h2><i class="fas fa-user-alt-slash"></i> 3. Working at Height Safety</h2>
   <ul>
     <li>Fall protection is mandatory when working at or above 1.8 meters.</li>
     <li>Wearing a harness is compulsory.</li>
@@ -118,7 +137,7 @@
 </section>
 
 <section>
-  <h2>4. Electrical Safety</h2>
+  <h2><i class="fas fa-bolt"></i> 4. Electrical Safety</h2>
   <ul>
     <li>Isolate circuits before starting electrical work.</li>
     <li>Follow the Lockout Tagout (LOTO) procedures.</li>
@@ -134,7 +153,7 @@
 </section>
 
 <section>
-  <h2>5. Confined Space Safety</h2>
+  <h2><i class="fas fa-door-open"></i> 5. Confined Space Safety</h2>
   <ul>
     <li>Gas testing must be done before entering confined spaces.</li>
     <li>Oxygen, LEL, H₂S and CO levels must be within safe limits.</li>
@@ -148,79 +167,7 @@
     <li>Ensure all workers exit after task completion.</li>
   </ul>
 </section>
-<section class="fade-in" style="padding: 20px; font-family: Arial, sans-serif; line-height: 1.6; max-width: 900px; margin: auto; background-color: #f9f9f9;">
-  <h2 class="section-title">3. ILO Safety Guidelines</h2>
-  <h4><strong>Written by Mahmodul Hasan</strong></h4>
-  <ul class="styled-list">
-    <li>Employers must ensure safe and healthy working conditions for all workers.</li>
-    <li>Safety training must be provided before any task begins.</li>
-    <li>Workers have the right to refuse dangerous work.</li>
-    <li>Personal Protective Equipment (PPE) must be provided at no cost.</li>
-    <li>All workplaces must be assessed for hazards and risks.</li>
-    <li>Workers should be involved in safety programs and decision-making.</li>
-    <li>Accident and injury records must be maintained and reviewed.</li>
-    <li>National safety standards must align with ILO conventions.</li>
-  </ul>  <h2 class="section-title">4. ISO Safety Management (ISO 45001)</h2>
-  <h4><strong>Written by Mahmodul Hasan</strong></h4>
-  <ul class="styled-list">
-    <li>Organizations must establish a formal Occupational Health & Safety Management System (OHSMS).</li>
-    <li>Leadership and worker participation are vital.</li>
-    <li>Risk and opportunity analysis is a core component.</li>
-    <li>Continuous improvement in safety performance must be encouraged.</li>
-    <li>Emergency preparedness procedures must be documented and tested.</li>
-    <li>Legal and compliance obligations must be fulfilled.</li>
-    <li>Performance evaluation must be based on data-driven results.</li>
-    <li>Workers must be trained and aware of all safety processes.</li>
-  </ul>  <h2 class="section-title">5. IOSH Safety Practices</h2>
-  <h4><strong>Written by Mahmodul Hasan</strong></h4>
-  <ul class="styled-list">
-    <li>Promote a positive health and safety culture in the workplace.</li>
-    <li>Management must lead by example.</li>
-    <li>Engage employees in safety practices.</li>
-    <li>Regular safety audits must be conducted.</li>
-    <li>Provide ongoing health and safety training.</li>
-    <li>Encourage reporting of unsafe conditions without fear.</li>
-    <li>Implement risk control measures effectively.</li>
-    <li>Promote mental wellbeing alongside physical safety.</li>
-  </ul>  <h2 class="section-title">6. OSHA Guidelines (USA Standard)</h2>
-  <h4><strong>Written by Mahmodul Hasan</strong></h4>
-  <ul class="styled-list">
-    <li>Employers must provide a workplace free from serious hazards.</li>
-    <li>Workers must be informed about potential hazards.</li>
-    <li>OSHA standards must be followed for all tasks.</li>
-    <li>Safety training must be understandable and in the worker’s language.</li>
-    <li>PPE must be provided and maintained properly.</li>
-    <li>Workers have the right to report safety violations.</li>
-    <li>Recordkeeping of injuries and illnesses is mandatory.</li>
-    <li>Employers must not retaliate against safety complaints.</li>
-  </ul>
-</section><style>
-  .fade-in {
-    animation: fadeIn 1s ease-in-out;
-  }
 
-  @keyframes fadeIn {
-    0% { opacity: 0; transform: translateY(10px); }
-    100% { opacity: 1; transform: translateY(0); }
-  }
-
-  .section-title {
-    color: #0a3d62;
-    font-size: 24px;
-    margin-top: 40px;
-  }
-
-  .styled-list {
-    margin-top: 10px;
-    padding-left: 20px;
-    color: #2c3e50;
-  }
-
-  .styled-list li {
-    margin-bottom: 8px;
-    list-style-type: disc;
-  }
-</style>
   </div>
 </body>
 </html>
