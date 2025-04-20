@@ -6,100 +6,107 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     .fade-in {
-      animation: fadeIn 1s ease-in-out;
+      animation: fadeIn 1.2s ease-in-out both;
     }
     @keyframes fadeIn {
-      0% { opacity: 0; transform: translateY(20px); }
+      0% { opacity: 0; transform: translateY(30px); }
       100% { opacity: 1; transform: translateY(0); }
     }
   </style>
 </head>
-<body class="bg-gradient-to-br from-blue-50 to-white text-gray-900 font-sans p-6">
-  <div class="max-w-5xl mx-auto bg-white shadow-2xl rounded-3xl p-10 space-y-12 fade-in"><!-- Header Section -->
-<header class="text-center">
-  <h1 class="text-5xl font-extrabold text-blue-900 mb-2">Mahmodul Hasan</h1>
-  <p class="text-lg text-gray-600 italic">Professional Safety Specialist</p>
-</header>
+<body class="bg-gradient-to-br from-blue-100 to-white text-gray-900 font-sans">
+  <div class="min-h-screen flex items-center justify-center px-4">
+    <div class="w-full max-w-6xl mx-auto bg-white shadow-2xl rounded-3xl p-6 sm:p-10 space-y-16 fade-in"><!-- Header Section -->
+  <header class="text-center">
+    <h1 class="text-5xl sm:text-6xl font-extrabold text-blue-900 mb-2">Mahmodul Hasan</h1>
+    <p class="text-lg sm:text-xl text-gray-600 italic">Professional Safety Specialist</p>
+  </header>
 
-<!-- English Section -->
-<section>
-  <h2 class="text-3xl font-bold text-blue-800 border-b-2 border-blue-300 pb-3 mb-6">English Version</h2>
-  <div class="space-y-10">
-    <!-- Section 1 -->
-    <div>
-      <h3 class="text-2xl font-semibold text-red-700 mb-3">1. General Occupational Safety</h3>
-      <ul class="list-disc list-inside space-y-2 pl-4 text-gray-800">
-        <li>Conduct hazard assessment before starting any task.</li>
-        <li>Mandatory use of Personal Protective Equipment (PPE).</li>
-        <li>Hold a daily Toolbox Meeting before work begins.</li>
-        <li>Never ignore even the smallest risks.</li>
-        <li>Each worker is responsible for their own safety.</li>
-        <li>Regular safety observations are necessary.</li>
-        <li>Reporting near misses is part of safety culture.</li>
-        <li>Proper training is mandatory before site entry.</li>
-        <li>Permit to work must be obtained for each task.</li>
-        <li>All signboards must be visible and clear.</li>
-      </ul>
-    </div>
+  <!-- English Section -->
+  <section>
+    <h2 class="text-3xl font-bold text-blue-800 border-b-2 border-blue-300 pb-3 mb-6 text-center">English Version</h2>
+    <div class="space-y-14">
 
-    <!-- Section 2 -->
-    <div>
-      <h3 class="text-2xl font-semibold text-red-700 mb-3">2. Fire Safety</h3>
-      <ul class="list-disc list-inside space-y-2 pl-4 text-gray-800">
-        <li>Every second counts during a fire emergency.</li>
-        <li>Keep fire extinguishers ready at all times.</li>
-        <li>Everyone should be trained in fire response.</li>
-        <li>Hot work requires a valid permit.</li>
-        <li>Fire watcher must be assigned during hot work.</li>
-        <li>Ensure the fire alarm system is functional.</li>
-        <li>Emergency exits must be kept clear.</li>
-        <li>Train all personnel on fire emergency actions.</li>
-        <li>Conduct monthly fire drills.</li>
-        <li>Store flammable materials in a secure area.</li>
-      </ul>
-    </div>
-  </div>
-</section>
+      <!-- Section 1 -->
+      <div>
+        <h3 class="text-2xl font-semibold text-red-700 mb-4">1. General Occupational Safety</h3>
+        <ul class="list-disc list-inside space-y-3 pl-6 text-gray-800 leading-relaxed">
+          <li>Before every task, assess the scene,</li>
+          <li>PPE must always be seen.</li>
+          <li>Toolbox talk starts the day,</li>
+          <li>Ignore no risk that comes your way.</li>
+          <li>Safety is your personal fight,</li>
+          <li>Observe and report to do it right.</li>
+          <li>Near misses should be shared,</li>
+          <li>Training ensures that all are prepared.</li>
+          <li>Work permits guide what we do,</li>
+          <li>Signs must be visible and true.</li>
+        </ul>
+      </div>
 
-<!-- Bengali Section -->
-<section>
-  <h2 class="text-3xl font-bold text-green-800 border-b-2 border-green-300 pb-3 mb-6">বাংলা সংস্করণ</h2>
-  <div class="space-y-10">
-    <!-- Section 1 -->
-    <div>
-      <h3 class="text-2xl font-semibold text-yellow-700 mb-3">১. সাধারণ পেশাগত নিরাপত্তা</h3>
-      <ul class="list-disc list-inside space-y-2 pl-4 text-gray-800">
-        <li>প্রতিটি কাজ শুরুর আগে হ্যাজার্ড অ্যাসেসমেন্ট করতে হবে।</li>
-        <li>PPE বাধ্যতামূলকভাবে ব্যবহার করতে হবে।</li>
-        <li>প্রতিদিন কাজের আগে “Toolbox Meeting” করা উচিত।</li>
-        <li>ঝুঁকি যত ছোটই হোক, সেটিকে অবহেলা করা যাবে না।</li>
-        <li>প্রতিটি কর্মীর নিরাপত্তার দায়িত্ব তার নিজেরও।</li>
-        <li>সেফটি অবজারভেশন নিয়মিত করা প্রয়োজন।</li>
-        <li>“Near Miss” রিপোর্ট করা নিরাপত্তা সংস্কৃতির অংশ।</li>
-        <li>সাইটে প্রবেশের আগে উপযুক্ত প্রশিক্ষণ বাধ্যতামূলক।</li>
-        <li>প্রতিটি কাজের জন্য অনুমতি (Permit) থাকা চাই।</li>
-        <li>সকল সাইনবোর্ড দৃশ্যমান ও পরিষ্কার রাখতে হবে।</li>
-      </ul>
-    </div>
+      <!-- Section 2 -->
+      <div>
+        <h3 class="text-2xl font-semibold text-red-700 mb-4">2. Fire Safety</h3>
+        <ul class="list-disc list-inside space-y-3 pl-6 text-gray-800 leading-relaxed">
+          <li>Every second counts in flame,</li>
+          <li>Keep extinguishers near your frame.</li>
+          <li>Train each hand to fight the fire,</li>
+          <li>Hot work needs permit to acquire.</li>
+          <li>Watchers stand to guard the spark,</li>
+          <li>Alarms must function in the dark.</li>
+          <li>Exit paths must be clear,</li>
+          <li>Teach all what to do when fire is near.</li>
+          <li>Monthly drills prepare us all,</li>
+          <li>Store combustibles behind a wall.</li>
+        </ul>
+      </div>
 
-    <!-- Section 2 -->
-    <div>
-      <h3 class="text-2xl font-semibold text-yellow-700 mb-3">২. আগুন ও অগ্নি নিরাপত্তা</h3>
-      <ul class="list-disc list-inside space-y-2 pl-4 text-gray-800">
-        <li>আগুন লাগলে প্রতিটি সেকেন্ড মূল্যবান।</li>
-        <li>ফায়ার এক্সটিংগুইশার সবসময় প্রস্তুত রাখতে হবে।</li>
-        <li>আগুন নেভানোর প্রশিক্ষণ থাকা উচিত সবার।</li>
-        <li>হট ওয়ার্কের আগে পারমিট নিতে হবে।</li>
-        <li>ফায়ার ওয়াচার নিয়োগ দেয়া আবশ্যক হট ওয়ার্কের সময়।</li>
-        <li>ফায়ার অ্যালার্ম ব্যবস্থা সচল রাখতে হবে।</li>
-        <li>আগুনের সময় নির্গমন পথ পরিষ্কার রাখতে হবে।</li>
-        <li>আগুন লাগলে কী করতে হবে তা সকলকে শেখাতে হবে।</li>
-        <li>ফায়ার ড্রিল প্রতি মাসে কমপক্ষে একবার।</li>
-        <li>দাহ্য পদার্থ সুরক্ষিত স্থানে সংরক্ষণ করতে হবে।</li>
-      </ul>
     </div>
-  </div>
-</section>
+  </section>
+
+  <!-- Bengali Section -->
+  <section>
+    <h2 class="text-3xl font-bold text-green-800 border-b-2 border-green-300 pb-3 mb-6 text-center">বাংলা সংস্করণ</h2>
+    <div class="space-y-14">
+
+      <!-- Section 1 -->
+      <div>
+        <h3 class="text-2xl font-semibold text-yellow-700 mb-4">১. সাধারণ পেশাগত নিরাপত্তা</h3>
+        <ul class="list-disc list-inside space-y-3 pl-6 text-gray-800 leading-relaxed">
+          <li>প্রতিটি কাজের আগে হ্যাজার্ড চিহ্নিত করি,</li>
+          <li>PPE ছাড়া কাজ যেন না করি।</li>
+          <li>প্রতিদিনের শুরু হোক টুলবক্স মিটিং দিয়ে,</li>
+          <li>ছোট ঝুঁকিও এড়াব না, থাকি সতর্কতায় বিয়ে।</li>
+          <li>নিজের নিরাপত্তা নিজের দায়িত্ব,</li>
+          <li>অবজারভেশন করি নিয়মিত, তাতে নেই কোনো তিক্ত।</li>
+          <li>নিয়ার মিস করলে কর রিপোর্ট,</li>
+          <li>সঠিক প্রশিক্ষণ ছাড়া নয় কোনো এক্সপোর্ট।</li>
+          <li>পারমিট নিয়ে কাজ করো হে ভাই,</li>
+          <li>সাইনবোর্ড যেন সবসময় চোখে পড়ে তাই চাই।</li>
+        </ul>
+      </div>
+
+      <!-- Section 2 -->
+      <div>
+        <h3 class="text-2xl font-semibold text-yellow-700 mb-4">২. আগুন ও অগ্নি নিরাপত্তা</h3>
+        <ul class="list-disc list-inside space-y-3 pl-6 text-gray-800 leading-relaxed">
+          <li>আগুন লাগলে সেকেন্ডে সেকেন্ডে খেলা,</li>
+          <li>ফায়ার এক্সটিংগুইশার থাকুক সাথে, সবার বেলা।</li>
+          <li>অগ্নিনির্বাপণ শেখা সবার দরকার,</li>
+          <li>হট ওয়ার্কে পারমিট যেন থাকে বারবার।</li>
+          <li>ফায়ার ওয়াচার থাকুক নজরে,</li>
+          <li>অ্যালার্ম যেন বাজে ঠিক সময়ে ঘরে।</li>
+          <li>নির্গমন পথ পরিষ্কার থাকুক সদা,</li>
+          <li>আগুন লাগলে কি করবো, সবাই জানুক এ বিষয়টা।</li>
+          <li>মাসে একবার ড্রিল করি আমরা,</li>
+          <li>দাহ্য পদার্থ দূরে রাখি সবদা।</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+</div>
 
   </div>
 </body>
